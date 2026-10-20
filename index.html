@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b20">
+<meta name="description" content="A little birthday universe made just for Mahazabin.">
+<title>For Mahazabin ✦</title>
+<style>
+:root{--bg:#070a1c;--panel:rgba(15,20,49,.78);--pink:#ff9ed2;--lav:#f3b8ff;--white:#f8f5ff;--muted:#c4c2dd;--line:rgba(255,190,235,.24)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#4a1d4a 0,#171027 42%,#080713 100%);color:var(--white);font-family:system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
+#stars{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden}.star{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;opacity:.55;animation:twinkle 3s ease-in-out infinite alternate}@keyframes twinkle{to{opacity:1;transform:scale(1.8)}}@keyframes float{50%{transform:translateY(-9px)}}@keyframes glow{50%{box-shadow:0 0 32px #e98acb55,0 0 70px #8f8dff22}}
+a{color:inherit}.wrap{width:min(960px,100%);margin:auto;padding:20px}.hero{min-height:94svh;display:grid;place-items:center;text-align:center;position:relative;padding:42px 12px}.moon{font-size:clamp(38px,8vw,66px);filter:drop-shadow(0 0 24px #fbd9ff);animation:float 5s ease-in-out infinite}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;color:var(--lav)}h1,h2,.script{font-family:Georgia,'Times New Roman',serif;font-weight:400}h1{font-size:clamp(2.7rem,10vw,5.8rem);line-height:1.04;color:var(--pink);text-shadow:0 0 24px #f58dd566;margin:20px 0}h2{font-size:clamp(2rem,6vw,3.2rem);color:var(--pink);margin:0 0 10px}.sub{max-width:540px;margin:0 auto 24px;color:var(--muted);line-height:1.8}.btn{border:1px solid #eab0e8aa;background:linear-gradient(135deg,#69345faa,#291b4aaa);color:var(--white);border-radius:999px;padding:13px 20px;font:inherit;cursor:pointer;box-shadow:0 0 22px #b77ce522;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:#38284f}.btn:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--pink);outline-offset:3px}.tiny{font-size:.84rem;color:var(--muted)}.section{padding:62px 0;scroll-margin-top:18px}.section-head{text-align:center;margin-bottom:24px}.card{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:clamp(20px,5vw,34px);backdrop-filter:blur(10px);box-shadow:0 12px 50px #0002}.envelope{width:min(300px,85%);height:190px;margin:28px auto 18px;position:relative;border:1px solid #ffb8e4aa;border-radius:14px;background:linear-gradient(145deg,#63305f,#271b45);display:grid;place-items:center;cursor:pointer;animation:glow 3s infinite}.envelope span{font-size:3.6rem;filter:drop-shadow(0 0 14px #ffb8e4)}.letter{display:none;text-align:left;line-height:1.9;color:#f0eafc}.letter.show{display:block;animation:appear .7s ease}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}.letter p{margin:0 0 15px}.signature{color:var(--pink);text-align:right;font-family:Georgia,serif;font-style:italic;font-size:1.2rem}.timeline{display:grid;gap:14px}.moment{display:grid;grid-template-columns:42px 1fr;gap:14px;align-items:start;padding:17px;border:1px solid var(--line);border-radius:18px;background:#24142eaa}.ico{font-size:1.5rem}.moment h3{margin:0 0 5px;color:var(--pink);font-weight:600}.moment p{margin:0;color:var(--muted);line-height:1.7}.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.photo{min-height:145px;border:1px dashed #d9b9f1aa;border-radius:18px;background:linear-gradient(135deg,#54294f,#17152f);display:grid;place-items:center;text-align:center;overflow:hidden;position:relative;color:var(--muted)}.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.photo span{padding:12px;z-index:1;text-shadow:0 2px 10px #000}.photo:has(img) span{display:none}.upload{display:inline-flex;margin-top:14px}.upload input{max-width:100%;font-size:.85rem;color:var(--muted)}.surprises{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.surprise{min-height:140px;text-align:left;border-radius:18px;padding:18px;border:1px solid var(--line);background:#28172f;color:var(--white);cursor:pointer}.surprise b{display:block;color:var(--pink);margin:9px 0}.surprise p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.6}.surprise .reveal{display:none;margin-top:12px;color:var(--white)}.surprise.open .reveal{display:block}.cake-area{text-align:center}.cake{font-size:clamp(5rem,20vw,9rem);display:inline-block;cursor:pointer;filter:drop-shadow(0 0 24px #ffb7df55);animation:float 4s ease-in-out infinite}.wish{min-height:30px;color:var(--pink);margin:10px 0 18px}.finale{text-align:center;padding:60px 20px;background:linear-gradient(180deg,#0b1028aa,#1d173caa);border:1px solid var(--line);border-radius:28px}.finale p{line-height:1.9;color:var(--muted);max-width:600px;margin:14px auto}.footer{text-align:center;padding:34px 10px 50px;color:#aaa9c8;font-size:.8rem}.heart{color:#ff9ed9}.edit-note{font-size:.78rem;color:#b8b5d7;text-align:center;line-height:1.7}.topnav{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:10px 0}.topnav a{text-decoration:none;font-size:.8rem;color:var(--muted);padding:8px 11px;border:1px solid #ffffff1c;border-radius:999px}
+@media(min-width:700px){.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}.photo{min-height:200px}.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.surprises{grid-template-columns:repeat(4,minmax(0,1fr))}.section{padding:82px 0}}
+@media(max-width:380px){.wrap{padding:14px}.surprises{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.photo{min-height:180px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="stars" aria-hidden="true"></div>
+<header class="hero wrap" id="home">
+  <div>
+    <div class="moon" aria-hidden="true">☾</div>
+    <div class="eyebrow">A tiny universe, just for you</div>
+    <h1>Happy Birthday<br>Madamjii <span class="heart">♡</span></h1>
+    <p class="sub">Some people make the world feel softer just by being in it. This little corner of the universe is yours tonight.</p>
+    <button class="btn" onclick="document.querySelector('#letter-section').scrollIntoView({behavior:'smooth'})">Open your surprise ✦</button>
+    <p class="tiny" style="margin-top:22px">Made with love, from Arkoo</p>
+  </div>
+</header>
+<nav class="topnav wrap" aria-label="Page sections"><a href="#letter-section">Your letter</a><a href="#story">Our story</a><a href="#memories">Memories</a><a href="#surprises">Surprises</a><a href="#wish">Make a wish</a></nav>
+<main class="wrap">
+<section class="section" id="letter-section">
+ <div class="section-head"><div class="eyebrow">A little something for you</div><h2>Open when you're ready</h2><p class="sub">Tap the glowing envelope. A few words have been waiting for you.</p></div>
+ <div class="envelope" role="button" tabindex="0" aria-label="Open birthday letter" onclick="openLetter()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLetter()}"><span>💌</span></div>
+ <div class="card letter" id="letter">
+  <p>My dearest Madamjii,</p>
+  <p>Today is your day, and I hope it brings you the kind of happiness that stays with you long after the candles go out. I'm grateful that our paths crossed, and that I get to know the little things that make you <em>you</em>.</p>
+  <p>Even with miles between us, you can still make an ordinary day feel special. I hope this new year of your life gives you peaceful mornings, reasons to laugh, dreams that grow closer, and people who treat your heart gently.</p>
+  <p>I can't promise that every day will be perfect. But I can say this honestly: I'd choose you, and I'd keep choosing you, one day at a time.</p>
+  <p>Happy Birthday, my favourite person, Madamjii. May you always feel loved, safe, and free to be yourself. ♡</p>
+  <div class="signature">Always cheering for you,<br>Arkoo ♡</div>
+ </div>
+</section>
+<section class="section" id="story">
+ <div class="section-head"><div class="eyebrow">Little moments, big meaning</div><h2>Our little story</h2><p class="sub">A story doesn't need to be perfect to be precious.</p></div>
+ <div class="timeline">
+  <article class="moment"><div class="ico">✨</div><div><h3>The beginning</h3><p>The day a new person became someone I looked forward to hearing from.</p></div></article>
+  <article class="moment"><div class="ico">☎️</div><div><h3>Calls & laughter</h3><p>Long conversations, silly jokes, quiet moments—and the comfort of being there.</p></div></article>
+  <article class="moment"><div class="ico">🌙</div><div><h3>Across the distance</h3><p>Different places, the same sky. A reminder that someone can matter even from far away.</p></div></article>
+  <article class="moment"><div class="ico">🎂</div><div><h3>Your day, today</h3><p>Another chapter begins. I hope it brings you closer to the life you dream of.</p></div></article>
+ </div>
+ <p class="edit-note">You can edit these lines in index.html to add your real memories and dates.</p>
+</section>
+<section class="section" id="memories">
+ <div class="section-head"><div class="eyebrow">Keep these close</div><h2>Our little moments</h2><p class="sub">Add your favourite photos here. They stay on this page in your browser; they are not uploaded anywhere.</p></div>
+ <div class="card">
+  <div class="gallery" id="gallery">
+   <label class="photo"><span>＋ Add a favourite photo</span><input hidden type="file" accept="image/*" onchange="previewPhoto(this,0)"></label>
+   <label class="photo"><span>＋ Add another memory</span><input hidden type="file" accept="image/*" onchange="previewPhoto(this,1)"></label>
+   <label class="photo"><span>＋ One more little moment</span><input hidden type="file" accept="image/*" onchange="previewPhoto(this,2)"></label>
+  </div>
+  <p class="edit-note">Choose a photo tile to select an image. To include photos for everyone who opens the public link, place image files in the website folder and update the HTML instead.</p>
+ </div>
+</section>
+<section class="section" id="surprises">
+ <div class="section-head"><div class="eyebrow">Tap to reveal</div><h2>Birthday surprises</h2><p class="sub">Three little reminders, just for you.</p></div>
+ <div class="surprises">
+  <button class="surprise" onclick="this.classList.toggle('open')"><span style="font-size:1.7rem">🌷</span><b>A wish for you</b><p>A little reminder…</p><div class="reveal">May you be surrounded by kind people, quiet peace, and the courage to chase what makes you happy. ♡</div></button>
+  <button class="surprise" onclick="this.classList.toggle('open')"><span style="font-size:1.7rem">🎧</span><b>Your soundtrack</b><p>Press play on a song you love…</p><div class="reveal">Put your favourite song on, get comfy, and let tonight be yours. Add a playlist link in the HTML if you'd like.</div></button>
+  <button class="surprise" onclick="this.classList.toggle('open')"><span style="font-size:1.7rem">🫶</span><b>When you need it</b><p>Open on a hard day…</p><div class="reveal">You don't have to have everything figured out today. Take a breath. You deserve gentleness on ordinary days too.</div></button>
+  <button class="surprise" onclick="this.classList.toggle('open')"><span style="font-size:1.7rem">🌠</span><b>A tiny promise</b><p>One thing to remember…</p><div class="reveal">No grand words needed: I hope we keep choosing honesty, patience, laughter, and kindness—one day at a time.</div></button>
+ </div>
+</section>
+<section class="section" id="wish">
+ <div class="section-head"><div class="eyebrow">It's your moment</div><h2>Make a wish ✦</h2><p class="sub">Tap the cake to light up the night.</p></div>
+ <div class="card cake-area">
+  <button class="cake" aria-label="Make a birthday wish" onclick="makeWish()" style="background:none;border:0">🎂</button>
+  <div class="wish" id="wish-text">Your wish can be a secret. ✨</div>
+  <button class="btn" onclick="makeWish()">Make a wish ✨</button>
+ </div>
+</section>
+<section class="section">
+ <div class="finale">
+  <div class="moon">☾</div><h2>Another year,<br>more beautiful you.</h2>
+  <p>May your dreams find their way to you. May your heart feel light, your laughter come easily, and your life hold more beautiful surprises than you can imagine.</p>
+  <p style="font-family:Georgia,serif;color:var(--pink);font-size:1.35rem">Happy Birthday, Madamjii ♡</p>
+  <p class="tiny">Under the same sky, always wishing you well.</p>
+  <button class="btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to the stars ↑</button>
+ </div>
+</section>
+</main>
+<footer class="footer">A little birthday universe made with care by Arkoo <span class="heart">♡</span><br><span class="tiny">No payment • No tracking • Mobile-friendly</span></footer>
+<script>
+const starfield=document.getElementById('stars');
+for(let i=0;i<95;i++){const s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=(Math.random()*4)+'s';s.style.animationDuration=(2+Math.random()*4)+'s';if(Math.random()>.82){s.style.width='3px';s.style.height='3px'}starfield.appendChild(s)}
+function openLetter(){const letter=document.getElementById('letter');letter.classList.add('show');letter.scrollIntoView({behavior:'smooth',block:'center'});document.querySelector('.envelope').innerHTML='<span>💖</span>'}
+function previewPhoto(input,index){const file=input.files&&input.files[0];if(!file)return;if(!file.type.startsWith('image/'))return;const reader=new FileReader();reader.onload=()=>{const tile=input.closest('.photo');let img=tile.querySelector('img');if(!img){img=document.createElement('img');img.alt='A selected memory';tile.appendChild(img)}img.src=reader.result};reader.readAsDataURL(file)}
+const wishes=['May one of your quiet dreams come true this year. 🌠','May you always find reasons to smile. ♡','May this year be gentle with your heart. ✨','Make a wish—and keep believing in your own little magic. 🌙'];
+function makeWish(){document.getElementById('wish-text').textContent=wishes[Math.floor(Math.random()*wishes.length)];for(let i=0;i<18;i++){const s=document.createElement('span');s.textContent=['✦','♡','✨'][Math.floor(Math.random()*3)];s.style.cssText=`position:fixed;left:${Math.random()*100}vw;top:${Math.random()*75}vh;color:#ffc3ed;font-size:${14+Math.random()*20}px;pointer-events:none;z-index:10;transition:all 1.5s ease;`;document.body.appendChild(s);requestAnimationFrame(()=>{s.style.transform=`translateY(-${30+Math.random()*90}px) rotate(${Math.random()*70}deg)`;s.style.opacity='0'});setTimeout(()=>s.remove(),1600)}}
+</script>
+</body>
+</html>
